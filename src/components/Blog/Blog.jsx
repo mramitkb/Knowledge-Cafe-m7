@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { FaRegBookmark } from 'react-icons/fa';
 
 const Blog = ({blog, handleAddForBookmark, handleMarkAsRead}) => {
-    const {title, author, author_img, cover_img, hashtags, posted_date, reading_time} = blog;
+    const {id, title, author, author_img, cover_img, hashtags, posted_date, reading_time} = blog;
     return (
         <div>
             <img className='rounded-xl' src={cover_img} alt="" />
@@ -19,7 +19,7 @@ const Blog = ({blog, handleAddForBookmark, handleMarkAsRead}) => {
                     {/* time */}
                     <div className='space-x-2'>
                         <span className='text-[#707070] text-lg font-medium'>{reading_time} min read</span>
-                        <button onClick={() => handleAddForBookmark(blog)}><FaRegBookmark></FaRegBookmark></button>
+                        <button onClick={() => handleAddForBookmark(blog)}><FaRegBookmark className='text-red-400'></FaRegBookmark></button>
                     </div>
                 </div>
                 <h2 className='text-4xl font-bold'>{title}</h2>
@@ -31,7 +31,7 @@ const Blog = ({blog, handleAddForBookmark, handleMarkAsRead}) => {
                         }
                     </p>
                 </div>
-                <button onClick={() => handleMarkAsRead(reading_time)}><a className='underline text-[#6047EC] font-semibold' href="#mark">Mark as read</a></button>
+                <button onClick={() => handleMarkAsRead(reading_time, id)}><a className='underline text-[#6047EC] font-semibold' href="#mark">Mark as read</a></button>
             </div>
             <div>
                 <hr className='my-8'/>

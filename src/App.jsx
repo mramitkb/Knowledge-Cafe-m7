@@ -16,9 +16,13 @@ function App() {
   // reading time add
   const [readingTime, setReadingTime] = useState(0);
   // event handler fro reading time
-  const handleMarkAsRead = time =>{
+  const handleMarkAsRead = (time, id) =>{
     const newReadingTime = readingTime + time;
     setReadingTime(newReadingTime);
+    //remove read blog from bookmark
+    console.log('remove')
+    const removeBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(removeBookmarks)
   }
   return (
     <>
