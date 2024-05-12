@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "title": "The Secret Garden",
+      "author": "Jane Doe",
+      "author_img": "https://i.ibb.co/Nx1QT8Q/Author-1.jpg",
+      "cover_img": "https://i.ibb.co/r0DKX2s/blog-cover.jpg",
+      "posted_date": "2024-05-10",
+      "reading_time": 25,
+      "hashtags": ["#fantasy", "#magic", "#adventure"]
+    },
+    {
+      "id": "2",
+      "title": "Lost in Wonderland",
+      "author": "John Smith",
+      "author_img": "https://i.ibb.co/Nx1QT8Q/Author-1.jpg",
+      "cover_img": "https://i.ibb.co/r0DKX2s/blog-cover.jpg",
+      "posted_date": "2024-05-09",
+      "reading_time": 20,
+      "hashtags": ["#wonderland", "#journey", "#dream"]
+    },
+    {
+      "id": "3",
+      "title": "Beyond the Horizon",
+      "author": "Alice Johnson",
+      "author_img": "https://i.ibb.co/Nx1QT8Q/Author-1.jpg",
+      "cover_img": "https://i.ibb.co/r0DKX2s/blog-cover.jpg",
+      "posted_date": "2024-05-08",
+      "reading_time": 30,
+      "hashtags": ["#exploration", "#discovery", "#limitless"]
+    },
+    {
+      "id": "4",
+      "title": "Echoes of Eternity",
+      "author": "Robert Brown",
+      "author_img": "https://i.ibb.co/Nx1QT8Q/Author-1.jpg",
+      "cover_img": "https://i.ibb.co/r0DKX2s/blog-cover.jpg",
+      "posted_date": "2024-05-07",
+      "reading_time": 15,
+      "hashtags": ["#timeless", "#memories", "#reflection"]
+    },
+    {
+      "id": "5",
+      "title": "The Enchanted Forest",
+      "author": "Emily White",
+      "author_img": "https://i.ibb.co/Nx1QT8Q/Author-1.jpg",
+      "cover_img": "https://i.ibb.co/r0DKX2s/blog-cover.jpg",
+      "posted_date": "2024-05-06",
+      "reading_time": 35,
+      "hashtags": ["#enchantment", "#mystery", "#nature"]
+    }
+  ]
+  
