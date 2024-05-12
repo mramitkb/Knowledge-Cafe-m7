@@ -1,53 +1,33 @@
 [
     {
       "id": "1",
-      "title": "The Secret Garden",
+      "title": "How to get your first job as a self-taught programmer.",
       "author": "Jane Doe",
-      "author_img": "https://i.ibb.co/Nx1QT8Q/Author-1.jpg",
-      "cover_img": "https://i.ibb.co/r0DKX2s/blog-cover.jpg",
+      "author_img": "https://i.ibb.co/D8K7FJz/auth1.jpg",
+      "cover_img": "https://i.ibb.co/jyxL7cB/cover1.jpg",
       "posted_date": "2024-05-10",
       "reading_time": 25,
-      "hashtags": ["#fantasy", "#magic", "#adventure"]
+      "hashtags": ["#beginners", "#programmers"]
     },
     {
       "id": "2",
       "title": "Lost in Wonderland",
       "author": "John Smith",
-      "author_img": "https://i.ibb.co/Nx1QT8Q/Author-1.jpg",
-      "cover_img": "https://i.ibb.co/r0DKX2s/blog-cover.jpg",
+      "author_img": "https://i.ibb.co/Ld6JPM1/auth2.jpg",
+      "cover_img": "https://i.ibb.co/VYrXK36/cover2.jpg",
       "posted_date": "2024-05-09",
       "reading_time": 20,
-      "hashtags": ["#wonderland", "#journey", "#dream"]
+      "hashtags": ["#beginners", "#programmers"]
     },
     {
       "id": "3",
       "title": "Beyond the Horizon",
       "author": "Alice Johnson",
-      "author_img": "https://i.ibb.co/Nx1QT8Q/Author-1.jpg",
-      "cover_img": "https://i.ibb.co/r0DKX2s/blog-cover.jpg",
+      "author_img": "https://i.ibb.co/jfz02Yb/auth3.jpg",
+      "cover_img": "https://i.ibb.co/qJptKWk/cover3.jpg",
       "posted_date": "2024-05-08",
       "reading_time": 30,
-      "hashtags": ["#exploration", "#discovery", "#limitless"]
-    },
-    {
-      "id": "4",
-      "title": "Echoes of Eternity",
-      "author": "Robert Brown",
-      "author_img": "https://i.ibb.co/Nx1QT8Q/Author-1.jpg",
-      "cover_img": "https://i.ibb.co/r0DKX2s/blog-cover.jpg",
-      "posted_date": "2024-05-07",
-      "reading_time": 15,
-      "hashtags": ["#timeless", "#memories", "#reflection"]
-    },
-    {
-      "id": "5",
-      "title": "The Enchanted Forest",
-      "author": "Emily White",
-      "author_img": "https://i.ibb.co/Nx1QT8Q/Author-1.jpg",
-      "cover_img": "https://i.ibb.co/r0DKX2s/blog-cover.jpg",
-      "posted_date": "2024-05-06",
-      "reading_time": 35,
-      "hashtags": ["#enchantment", "#mystery", "#nature"]
-    }
+      "hashtags": ["#beginners", "#programmers"]
+    }  
   ]
   

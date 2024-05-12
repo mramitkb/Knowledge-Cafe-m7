@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header></Header> 
-      <div className="md:flex mt-8">
+      <div className="md:flex mt-8 gap-4">
           <Blogs></Blogs>
           <Bookmarks></Bookmarks>
       </div>
