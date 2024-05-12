@@ -7,20 +7,25 @@ function App() {
 
   //use state for bookmark add
   const [bookmarks, setBookmarks] = useState([])
-
   // event handler for bookmark
   const handleAddForBookmark = blog =>{
-    console.log(blog)
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
   }
 
+  // reading time add
+  const [readingTime, setReadingTime] = useState(0);
+  // event handler fro reading time
+  const handleMarkAsRead = time =>{
+    const newReadingTime = readingTime + time;
+    setReadingTime(newReadingTime);
+  }
   return (
     <>
       <Header></Header> 
       <div className="md:flex mt-8 gap-4 max-w-screen-xl mx-auto">
-          <Blogs handleAddForBookmark={handleAddForBookmark}></Blogs>
-          <Bookmarks bookmarks={bookmarks}></Bookmarks>
+          <Blogs handleAddForBookmark={handleAddForBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
+          <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
       </div>
     </>
   )
